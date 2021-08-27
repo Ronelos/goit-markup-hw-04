@@ -140,6 +140,12 @@ p {
     margin-left: 50px;
 
 }
+.header-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: currentColor;
+}
 
 .header-contacts:hover, .header-contacts:focus {
     color: var(--secondary-text-color);
@@ -214,6 +220,7 @@ p {
 
 .dignity-list {
     display: flex;
+    
 
     }
 
@@ -221,8 +228,27 @@ p {
 
 .dignity-item {
     width: 270px;
-    height: 101px;
+    height: 251px;
     margin-right: 30px;
+    
+    
+    }
+.dignity-icon-box {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+       
+    }
+
+    .dignity-icon {
+       width: 70px;
+       height: 70px; 
+      
+       
     }
 
 .dignity-title {
@@ -247,8 +273,8 @@ p {
 .work {
     align-content: center;
     text-align: center;
-   padding-top: 47px;
-   padding-bottom: 94px;
+    padding-top: 47px;
+    padding-bottom: 94px;
 }
 .work-title {
     font-weight: 700;
