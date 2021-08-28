@@ -322,13 +322,13 @@ p {
 
 
   } 
-  .team-item:nth-child(4n)  {
+.team-item:nth-child(4n)  {
       margin-right: 0;
 
   }
 
 
-    .team-title-logo {
+.team-title-logo {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
@@ -339,7 +339,7 @@ p {
     margin-bottom: 50px;
 }
 
-    .team-title {
+.team-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -348,16 +348,9 @@ p {
     
 }
 
-.team-icon {
-    width: 20px;
-    height: 20px;
-    fill: #AFB1B8;
- 
-    
-
-}
 
 .team-icon-link {
+
     display: flex;
     width: 44px;
     height: 44px;
@@ -365,6 +358,14 @@ p {
    margin-right: 10px;
    align-items: center;
    justify-content: center;
+   color: #AFB1B8;
+}
+
+.team-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+ 
 }
 
 
@@ -373,6 +374,7 @@ p {
 
 .team-icon:hover,
 .team-icon:focus {
+
     background-color: var(--secondary-text-color);
 }
 
