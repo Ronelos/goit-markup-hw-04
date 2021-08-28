@@ -46,6 +46,7 @@ p {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+   
   
 }
 .button-cursor {
@@ -296,7 +297,8 @@ p {
         margin-left: 30px;
 
     }
-         
+        
+    
      /* team */
 
    .team {
@@ -312,10 +314,11 @@ p {
       display: inline-block;
       padding-bottom: 30px;
       flex-basis: calc((100% - 90px) / 4);
-      max-height: 368px;
+      max-height: 428px;
       margin-right: 30px;
       background-color: #fff;
       border-radius: 0px 0px 4px 4px;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 
 
   } 
@@ -345,6 +348,67 @@ p {
     
 }
 
+.team-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+ 
+    
+
+}
+
+.team-icon-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+   margin-right: 10px;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+
+
+.team-icon:hover,
+.team-icon:focus {
+    background-color: var(--secondary-text-color);
+}
+
+.team-icon-link:hover .team-icon,
+.team-icon-link:focus .team-icon {
+  fill: #fff;
+
+}
+.team-icon-item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+  
+} 
+
+.team-icon-item:hover, 
+.team-icon-item:focus {
+background-color: var(--secondary-text-color);
+}
+
+.team-icon-link:hover, 
+.team-icon-link:focus {
+color: var(--secondary-text-color);
+ 
+}
+.team-icon-list {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   list-style: none;
+    text-decoration: none;
+    padding-top: 16px;
+  
+}
+
     .team-img {
         margin-bottom: 30px;
 
@@ -357,12 +421,73 @@ letter-spacing: 0.03em;
 color: var(--main-text-color);
 }
 
+/* clients */
+.clients {
+    text-align: center;
+    align-items: center;
+    padding-bottom: 94px;
+    padding-top: 94px;
+   
+}
+
+.clients-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients-item {
+   margin-right: 30px;
+   
+}
+
+.clients-link:focus, .clients-link:hover {
+    color: var(--secondary-text-color);
+    border-color: var(--secondary-text-color);
+}
+
+.clients-link {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   border-radius: 4px;
+   color: #AFB1B8;
+}
+
+
+
+.clients-logo {
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+}
+
+
+
+
 /* footer */
 
 .footer {
     background-color: var(--main-title-color);
     display: flex;
         
+}
+
+.footer-box {
+  display: flex;
+  padding-top: 60px;
 }
 
 .footer-logo {
@@ -374,7 +499,7 @@ color: var(--main-text-color);
     color: #fff;
     display: flex;
     margin-bottom: 30px;
-    padding-top: 60px;
+    
 }
 
 .footer-text {
@@ -395,6 +520,37 @@ color: var(--main-text-color);
 margin-bottom: 9px;
 
 }
+.footer-icon {
+    background-color: #43444D;
+    display: flex;
+}
+
+.footer-icon-color {
+    background-color: #43444D;
+}
+
+.footer-icon-color:hover,
+.footer-icon-color:focus {
+    background-color: var(--secondary-text-color);
+}
+
+.footer-icon-box {
+    display: inline-block;
+    padding-top: 12px;
+    margin-left: 70px;
+
+}
+
+.footer-icon-title {
+ display: inline-block;
+color: #fff;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
 .footer-logo-color {
     color: var(--secondary-text-color);
 }
@@ -460,6 +616,7 @@ margin-bottom: 9px;
 .navigation-button:hover, .navigation-button:focus {
     color: #fff;
     background-color: var(--secondary-text-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* working */
@@ -496,6 +653,12 @@ img {
     background-color: #fff;
     padding-bottom: 20px;
     outline: 1px solid #eee;
+ }
+
+ .working-item:hover,
+ .working-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
  }
 
 
